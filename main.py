@@ -25,9 +25,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # coding=utf-8
-client_id = 't3OnC4Qg3c9LnGJICuyI3Oo3uoSn095HvOrkZsfABVixM7_ONvumxsM0Fyqe7zDe'
-client_secret = 'xtfVDI4l5K3umFml14LDccNpkdKci2u0pXMfNv6SfgVYjGDfZaLuNrv9ykj4WkywWfpOS5ulw89-h4biRw4uBw'
-access_token = 'sBJ2OYn3KjvA9VvVxhTetiMNPTGDWlg0fEjuwwE4K2Yb4HM6TP_F3TZr24YOOW-0'
+client_id = 'your client id here'
+client_secret = 'your client secret here'
+access_token = 'your access token here'
 # look for songs that have genre of rap and contain the words in list
 islamic_words = ['allah', 'Allah', 'Assalaamu', 'Alaikum', 'assalaamu', 'As-Salaam-Alaikum','alaikum', 'Alaikum', 'Ayatollah', 'ayatollah', 'Barakah', 'barakah', 'Caliph', 'caliph', 'Hajj', 'hajj', 'Hijra', 'hijra', 'Iman', 'iman', 'jinn', 'Jinn', 'jihad', 'Jihad', "Ka'ba", "ka'ba", 'Kafir', 'kafir', 'Koran', "Qur'an", 'koran', 'Mosque', 'mosque', 'Muhammed', 'Ramadan', 'Salaam', 'salaam', "Shari'ah", "shari'ah", "Shi'ite", 'Sufi', 'sufi', 'Zakat', 'zakat']
 sp = spotipy.Spotify()
